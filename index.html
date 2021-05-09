@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Rate My Plants </title>
+  <link rel="stylesheet" type="text/css" href="index_css.css">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class = "navbar" id = "mynavbar">
+      <h1>Rate My Plants</h1>
+      <a class = "active" href="otherplants.html">Miscellaneous</a>
+      <a class = "active" href="succulents.html">Succulents</a>
+      <a class = "active" href="marantaceae.html">Marantaceae</a>
+      <a class = "active" href="aroids.html">Aroids</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("mynavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      }
+      else {
+        x.className = "navbar";
+      }
+    }
+  </script>
+  </header>
+  <div class = "container">
+    <!--intro section-->
+    <div class = "section">
+      <div class = "content">
+        <h2>Welcome to Rate My Plants!</h2>
+        <p>I started collecting houseplants in the summer of 2020, and what began as an innocent hyperfixation quickly became a
+          life commitment because I fixated on something living.</p>
+        <p>Oops.</p>
+        <p>Anyways, I have about thirty plants now, and naturally, some I like more than others.</p>
+        <p>On Rate My Plants, I will be rating my plants on a 10-point scale, and giving some general tips on caring for them.</p>
+      </div>
+    </div>
+    <!--Categories overview -->
+    <div class = "section">
+      <!--column overview-->
+      <div class = "content">
+        <div class = "categories">
+          <h2>Categories</h2>
+          <div class = "row">
+            <div class = "column">
+              <h3>Aroids</h3>
+              <p>Most of my plants are aroids.</p>
+              <h3>Marantaceae</h3>
+              <p>If you'd like to suffer because of a plant, I definitely recommend one of these.</p>
+            </div>
+            <div class = "column">
+              <h3>Succulents</h3>
+              <p>These are trendy. We're gonna talk about it :)</p>
+              <h3>Other</h3>
+              <p>I'm definitely not a plant genius. Some of my plants are a bit of a question mark. These are them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

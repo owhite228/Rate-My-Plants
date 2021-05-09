@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Plant Time! </title>
+  <link rel="stylesheet" type="text/css" href="subpage_css.css">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class = "navbar" id = "mynavbar">
+      <h1>Rate My Plants</h1>
+      <a class = "active" href="otherplants.html">Miscellaneous</a>
+      <a class = "active" href="marantaceae.html">Marantaceae</a>
+      <a class = "active" href="aroids.html">Aroids</a>
+      <a class = "active" href="index.html">Main Page</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+    function myFunction() {
+      ar x = document.getElementById("mynavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      }
+      else {
+        x.className = "navbar";
+      }
+    }
+    </script>
+  </header>
+  <div class = "container">
+    <div class = "section">
+      <div class = "content">
+        <h2>Succulents</h2>
+        <h3>Let's have a chat about succulents</h3>
+        <div class = "plant_overview">
+          <p>First of all, what even are they?</p>
+          <p>Succulents are plants that store water in their leaves, which makes their leaves extremely waxy and thick. Because of this, they're able to
+          thrive on limited water and they're often found in deserts.</p>
+          <p>People always recommend succulents as a beginner plant, but controversal opinion: succulents are deceptively hard. <br>
+          They are harder to kill than other plants, but for them to grow, they really need the absolute perfect conditions, so they can
+          sometimes be unsatisfying to have. <br>
+          I personally love fast-growing plants -- or at least grow in a way that I can observe, and most succulents really don't do that. They grow really slowly.</p>
+        </div>
+      </div>
+    </div>
+    <div class = "section">
+      <div class = "content">
+          <h2>Rating my Succulents</h2>
+          <h3>Crassula Ovata (aka the Jade Plant)</h3>
+          <p>This is one of the first plants I got, because everyone said it's a great plant for beginners. Don't ask me if it's grown at all bc I have no idea.</p>
+          <h4>Rating: 4/10</h4>
+          <img src = "jade.jpg" alt = "a small jade plant in a black pot" style="max-width:30%;height:auto;">
+      </div>
+    </div>
+    <div class = "section">
+      <div class = "content">
+          <h3>Hoya Obovata</h3>
+          <p>Despite everything I said about succulents, this was definitely a wishlist plant for me for ages and I love it a lot (it does grow extremely slow, but moving it to a spot
+            where it gets direct sun has helped).</p>
+          <h4>Rating: 8/10</h4>
+          <img src = "hoya.jpg" alt = "a small hoya plant with 4 leaves in a black pot" style="max-width:25%;height:auto;">
+      </div>
+    </div>
+    <div class = "section">
+      <div class = "content">
+        <h3>String of Pearls</h3>
+        <p>Again, despite my earlier defamation of succulents, I love this plant so much. I have two of them, and they grow so fast
+          (maybe that's why I like it so much). The leaves looks like little peas on a vine which is hilarious and I want ten more.</p>
+        <h4>Rating: 10/10</h4>
+        <img src = "sop1.jpg" alt = "a small string of pearls plant with 2inch vines" style="max-width:25%;height:auto;">
+      </div>
+    </div>
+    <div class = "section">
+      <div class = "content">
+          <h3>Hope Peperomia</h3>
+          <p>Peperomias are an extremely popular type of plant, and they're especially big with plant collectors because there are a lot of different varietes, but honestly,
+          I'm just not super into them. I am very attached to this particular plant though, because I got it from a Star Market and someone had trimmed the branches (borderline criminal),
+          and then it started to put out little sprouts from where it was cut and I cried a lot about it and now it's huge.</p>
+          <h4>Rating: 6/10</h4>
+          <img src = "peper1.jpg" alt = "a large peperomia plant in a black pot" style="max-width:25%;height:auto;">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
